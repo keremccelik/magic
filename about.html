@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-color: #39b34c;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100svh;
+            overflow: hidden;
+            width: 100vw;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 40px;
+            border-bottom: 1px solid white;
+        }
+
+        .logo {
+            font-size: 40px;
+            font-weight: 500;
+            color: white;
+            text-decoration: none !important;
+            /* Added this line */
+        }
+
+        a {
+            text-decoration: none !important;
+        }
+
+        .nav-links {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .nav-links a {
+            font-size: 30px;
+            color: white;
+            text-decoration: none !important;
+            padding: 16px;
+            margin-left: 10vw;
+            font-weight: 700;
+        }
+
+        .content-container {
+            display: flex;
+            align-items: center;
+            padding: 40px;
+            position: relative;
+            height: 100%;
+        }
+
+        .image {
+            height: 80svh;
+            position: absolute;
+
+        }
+
+        .text {
+            width: 40vw;
+            color: white;
+            font-size: 24px;
+            font-weight: 700;
+            margin-left: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div>
+            <a href="/">
+                <span class="logo">VIENNAA</span>
+            </a>
+        </div>
+        <div class="nav-links">
+            <a href="/work.html">Work</a>
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+        </div>
+    </nav>
+    <div class="content-container">
+        <img class="image"
+            src="https://uploads-ssl.webflow.com/657fefc732f7337cad6c4137/65c9fe841aed2a3e77c80887_export-asset.svg"
+            alt="Image">
+        <div class="text">
+            <p>WE MAKE CULTURE-DEFINING CREATIVE WORK FOR GLOBAL PARTNERS, PUSHING HUMANITY THROUGH STORYTELLING.</p>
+            <p>We are a creative studio and production company committed to telling stories across film and photography.
+                Our diverse team brings together a fusion of talents and expertise, fostering an environment where
+                creativity flourishes.</p>
+        </div>
+    </div>
+</body>
+
+</html>
